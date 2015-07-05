@@ -10,6 +10,7 @@
         "php": ">=5.3.3"
     },
     "require-dev": {
+        "mockery/mockery": "0.9.4",
         "phpunit/phpunit": "4.7.6"
     },
     "license": "LGPLv3",

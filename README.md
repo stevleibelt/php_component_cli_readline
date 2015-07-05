@@ -103,8 +103,9 @@ git clone https://github.com/bazzline/php_component_cli_readline .
 
 * upcomming
     * @todo
-        * cover code with unit tests
         * add support to inject [arguments](https://github.com/bazzline/php_component_cli_arguments) instead of simple arguments
+        * cover code with unit tests
+        * finish DebugManager
 * [1.0.0](https://github.com/bazzline/php_component_csv/tree/1.0.0) - released at 05.07.2015
     * initial release
 
