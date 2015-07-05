@@ -13,7 +13,7 @@ The scrutinizer status are:
 The versioneye status is:
 [![Dependency Status](https://www.versioneye.com/user/projects/557492b1316137000d0000d0/badge.svg?style=flat)](https://www.versioneye.com/user/projects/557492b1316137000d0000d0)
 
-Take a look on [openhub.net](https://www.openhub.net/p/php_component_cli_readline).
+Take a look on [openhub.net](https://openhub.net/p/php_component_cli_readline).
 
 # Benefits
 
@@ -96,7 +96,7 @@ git clone https://github.com/bazzline/php_component_cli_readline .
 
 # API
 
-[API](http://www.bazzline.net/55371e9f93dbdec83dc82730a5a73db5fc36272e/index.html) is available at [bazzline.net](http://www.bazzline.net).
+[API](http://www.bazzline.net/a34444c53af6abb71b3de88f7ee355f13220bf36/index.html) is available at [bazzline.net](http://www.bazzline.net).
 
 
 # History
