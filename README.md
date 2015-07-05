@@ -21,13 +21,62 @@ Take a look on [openhub.net](https://www.openhub.net/p/php_component_cli_readlin
 * configuration as array
     * set array with possible autocomplete options
     * bind actions to specific autocomplete options
+    * supports function, closures and objects as autocomplete target
 * easy up php's [readline](https://secure.php.net/manual/en/book.readline.php) implementation as seen [here](https://github.com/stevleibelt/examples/blob/master/php/cli/readline.php)
 * works with PHP 5.3 and above
 
 # Usage
 
+* take a look to the [basic example](https://github.com/bazzline/php_component_cli_readline/blob/master/example/basic)
+
 ```php
+use Net\Bazzline\Component\Cli\Autocomplete\ManagerFactory;
+
+require_once __DIR__ . '/../vendor/autoload.php';
+
+$factory    = new ManagerFactory();
+$manager    = $factory->create();
+$myClass    = new MyClass();    //assuming a class "MyClass" exists
+
+$manager->setConfiguration(
+    array(
+        'git' => array(
+            'add' => function ($files) {
+                if (!is_null($files)) {
+                    passthru('/usr/bin/env git add ' . implode(' ', $files));
+                }
+            },
+            'commit' => function ($message) {
+                if (is_null($message)) {
+                    passthru('/usr/bin/env git commit');
+                } else {
+                    passthru('/usr/bin/env git commit -m "' . (string) $message . '"');
+                }
+            }
+        ),
+        'info' => 'phpinfo',
+        'my' => array(
+            'function_one' => array($myClass, 'one'),   //assuming MyClass has a method "one"
+            'function_two' => array($myClass, 'two')    //assuming MyClass has a method "two"
+        )
+    )
+);
+$manager->setPrompt(': ');
+$manager->run();
 ```
+
+The example above would result into the following possible autocompletion cases.
+
+* no word
+    * git
+    * info
+    * my
+* first word is git
+    * add
+    * commit
+* first word is my
+    * function_one
+    * function_two
 
 # Install
 
