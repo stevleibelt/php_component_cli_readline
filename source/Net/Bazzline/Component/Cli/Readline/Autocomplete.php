@@ -69,8 +69,7 @@ class Autocomplete
                 $arrayOrExecutable = $configuration[$index];
 
                 if (is_array($arrayOrExecutable)) {
-                    $objectOrToken  = current($arrayOrExecutable);
-                    $completion     = (is_object($objectOrToken)) ? false : array_keys($configuration[$index]);
+                    $completion = array_keys($arrayOrExecutable);
                 } else {
                     $completion = false;
                 }
