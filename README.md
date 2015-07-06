@@ -107,6 +107,8 @@ git clone https://github.com/bazzline/php_component_cli_readline .
         * add support to inject [arguments](https://github.com/bazzline/php_component_cli_arguments) instead of simple arguments
         * cover code with unit tests
         * implement debugging mechanism
+* [1.1.1](https://github.com/bazzline/php_component_csv/tree/1.1.1) - released at 06.07.2015
+    * fixed bug in nested arrays and dealing with closures
 * [1.1.0](https://github.com/bazzline/php_component_csv/tree/1.1.0) - released at 06.07.2015
     * removed unused DebugManager
     * moved from project namespace "Autocomplete" to "Readline"

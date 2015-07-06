@@ -84,7 +84,7 @@ class Validator implements ValidatorInterface
             } else if (is_array($arrayOrCallable)) {
                 $object = current($arrayOrCallable);
 
-                if (is_object($object)) {
+                if (is_object($object) && $this->isNotAnClosure($object)) {
                     $methodName = $arrayOrCallable[1];
                     if (!method_exists($object, $methodName)) {
                         throw new InvalidArgument(
@@ -95,14 +95,21 @@ class Validator implements ValidatorInterface
                     $this->validate($arrayOrCallable, $currentPath);
                 }
             } else {
-                $isNotAClosure = !($arrayOrCallable instanceof Closure);
-
-                if ($isNotAClosure) {
+                if ($this->isNotAnClosure($arrayOrCallable)) {
                     throw new InvalidArgument(
                         'can not handle value "' . var_export($arrayOrCallable, true) . '" in path "' . $currentPath . '"'
                     );
                 }
             }
         }
+    }
+
+    /**
+     * @param mixed $data
+     * @return bool
+     */
+    private function isNotAnClosure($data)
+    {
+        return !($data instanceof Closure);
     }
 }

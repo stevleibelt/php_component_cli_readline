@@ -95,9 +95,12 @@ class Assembler implements AssemblageInterface
         } else if ($arrayOrCallable instanceof Closure) {
             $isCallable = true;
         } else if (is_array($arrayOrCallable)) {
-            $object = current($arrayOrCallable);
+            $object     = current($arrayOrCallable);
+            $isClosure  = ($object instanceof Closure);
 
-            if (is_object($object)) {
+            if ($isClosure) {
+                $isCallable = true;
+            } else if (is_object($object)) {
                 $methodName = $arrayOrCallable[1];
                 $isCallable = method_exists($object, $methodName);
             }
