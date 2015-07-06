@@ -4,10 +4,10 @@
  * @since 2015-07-05 
  */
 
-namespace Test\Net\Bazzline\Component\Cli\Autocomplete;
+namespace Test\Net\Bazzline\Component\Cli\Readline;
 
 use Mockery;
-use Net\Bazzline\Component\Cli\Autocomplete\Configuration\Validator;
+use Net\Bazzline\Component\Cli\Readline\Configuration\Validator;
 
 abstract class TestCase extends \PHPUnit_Framework_TestCase
 {

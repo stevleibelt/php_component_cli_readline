@@ -4,12 +4,12 @@
  * @since 2015-07-05 
  */
 
-namespace Net\Bazzline\Component\Cli\Autocomplete;
+namespace Net\Bazzline\Component\Cli\Readline;
 
 
-use Net\Bazzline\Component\Cli\Autocomplete\Configuration\Assembler;
-use Net\Bazzline\Component\Cli\Autocomplete\Configuration\Executable;
-use Net\Bazzline\Component\Cli\Autocomplete\Configuration\Validator;
+use Net\Bazzline\Component\Cli\Readline\Configuration\Assembler;
+use Net\Bazzline\Component\Cli\Readline\Configuration\Executable;
+use Net\Bazzline\Component\Cli\Readline\Configuration\Validator;
 
 class ManagerFactory
 {

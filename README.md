@@ -18,6 +18,7 @@ Take a look on [openhub.net](https://openhub.net/p/php_component_cli_readline).
 # Benefits
 
 * autocomplete support
+* readline support
 * configuration as array
     * set array with possible autocomplete options
     * bind actions to specific autocomplete options
@@ -30,7 +31,7 @@ Take a look on [openhub.net](https://openhub.net/p/php_component_cli_readline).
 * take a look to the [basic example](https://github.com/bazzline/php_component_cli_readline/blob/master/example/basic)
 
 ```php
-use Net\Bazzline\Component\Cli\Autocomplete\ManagerFactory;
+use Net\Bazzline\Component\Cli\Readline\ManagerFactory;
 
 require_once __DIR__ . '/../vendor/autoload.php';
 
@@ -105,7 +106,11 @@ git clone https://github.com/bazzline/php_component_cli_readline .
     * @todo
         * add support to inject [arguments](https://github.com/bazzline/php_component_cli_arguments) instead of simple arguments
         * cover code with unit tests
-        * finish DebugManager
+        * implement debugging mechanism
+* [1.1.0](https://github.com/bazzline/php_component_csv/tree/1.1.0) - released at 06.07.2015
+    * removed unused DebugManager
+    * moved from project namespace "Autocomplete" to "Readline"
+    * started with unit tests
 * [1.0.0](https://github.com/bazzline/php_component_csv/tree/1.0.0) - released at 05.07.2015
     * initial release
 

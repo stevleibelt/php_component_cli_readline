@@ -4,7 +4,7 @@
  * @since 2015-07-05 
  */
 
-namespace Net\Bazzline\Component\Cli\Autocomplete;
+namespace Net\Bazzline\Component\Cli\Readline;
 
 class Autocomplete
 {

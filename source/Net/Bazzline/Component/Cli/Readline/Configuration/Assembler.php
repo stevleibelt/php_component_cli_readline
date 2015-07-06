@@ -4,7 +4,7 @@
  * @since 2015-07-05 
  */
 
-namespace Net\Bazzline\Component\Cli\Autocomplete\Configuration;
+namespace Net\Bazzline\Component\Cli\Readline\Configuration;
 
 use Closure;
 use Net\Bazzline\Component\GenericAgreement\Data\AssemblageInterface;

@@ -4,9 +4,9 @@
  * @since 2015-07-02 
  */
 
-namespace Net\Bazzline\Component\Cli\Autocomplete;
+namespace Net\Bazzline\Component\Cli\Readline;
 
-use Net\Bazzline\Component\Cli\Autocomplete\Configuration\Assembler;
+use Net\Bazzline\Component\Cli\Readline\Configuration\Assembler;
 use RuntimeException;
 
 class Manager

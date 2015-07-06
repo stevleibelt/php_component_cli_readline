@@ -4,7 +4,7 @@
  * @since 2015-07-03
  */
 
-namespace Net\Bazzline\Component\Cli\Autocomplete;
+namespace Net\Bazzline\Component\Cli\Readline;
 
 //use reflection instead of extends, add logging before each method call
 class DebugManager extends Manager

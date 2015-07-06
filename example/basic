@@ -5,7 +5,7 @@
  * @since 2015-07-02 
  */
 
-use Net\Bazzline\Component\Cli\Autocomplete\ManagerFactory;
+use Net\Bazzline\Component\Cli\Readline\ManagerFactory;
 
 require_once __DIR__ . '/../vendor/autoload.php';
 

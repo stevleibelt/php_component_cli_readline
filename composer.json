@@ -1,5 +1,5 @@
 {
-    "name": "net_bazzline/php_component_cli_autocomplete",
+    "name": "net_bazzline/php_component_cli_readline",
     "description": "free as in freedom php component to easy up usage of php readline implementation in php 5.3 and above",
     "keywords": ["php", "component", "free as in freedom", "lgpl", "readline", "cli", "console", "unix", "autocomplete"],
     "type": "library",
@@ -24,8 +24,8 @@
     ],
     "autoload": {
         "psr-0": {
-            "Net\\Bazzline\\Component\\Cli\\Autocomplete": "source/",
-            "Test\\Net\\Bazzline\\Component\\Cli\\Autocomplete": "test/"
+            "Net\\Bazzline\\Component\\Cli\\Readline": "source/",
+            "Test\\Net\\Bazzline\\Component\\Cli\\Readline": "test/"
         }
     }
 }
