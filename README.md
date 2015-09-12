@@ -92,7 +92,7 @@ git clone https://github.com/bazzline/php_component_cli_readline .
 ## With [Packagist](https://packagist.org/packages/net_bazzline/php_component_cli_readline)
 
 ```
-    composer require net_bazzline/php_component_cli_readline:dev-master
+composer require net_bazzline/php_component_cli_readline:dev-master
 ```
 
 # API
@@ -108,6 +108,7 @@ git clone https://github.com/bazzline/php_component_cli_readline .
         * cover code with unit tests
         * implement debugging mechanism
     * fixed broken release history linkgs
+    * fixed broken style
 * [1.1.1](https://github.com/bazzline/php_component_cli_arguments/tree/1.1.1) - released at 06.07.2015
     * fixed bug in nested arrays and dealing with closures
 * [1.1.0](https://github.com/bazzline/php_component_cli_arguments/tree/1.1.0) - released at 06.07.2015
