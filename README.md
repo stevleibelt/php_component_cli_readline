@@ -11,7 +11,7 @@ The scrutinizer status are:
 [![code quality](https://scrutinizer-ci.com/g/bazzline/php_component_cli_readline/badges/quality-score.png?b=master)](https://scrutinizer-ci.com/g/bazzline/php_component_cli_readline/) | [![build status](https://scrutinizer-ci.com/g/bazzline/php_component_cli_readline/badges/build.png?b=master)](https://scrutinizer-ci.com/g/bazzline/php_component_cli_readline/)
 
 The versioneye status is:
-[![Dependency Status](https://www.versioneye.com/user/projects/557492b1316137000d0000d0/badge.svg?style=flat)](https://www.versioneye.com/user/projects/557492b1316137000d0000d0)
+[![Dependency Status](https://www.versioneye.com/user/projects/565b5ecdc34a65000f00000d/badge.svg?style=flat)](https://www.versioneye.com/user/projects/565b5ecdc34a65000f00000d)
 
 Take a look on [openhub.net](https://openhub.net/p/php_component_cli_readline).
 
@@ -109,6 +109,7 @@ composer require net_bazzline/php_component_cli_readline:dev-master
         * implement debugging mechanism
     * fixed broken release history linkgs
     * fixed broken style
+    * updated dependencies
 * [1.1.1](https://github.com/bazzline/php_component_cli_arguments/tree/1.1.1) - released at 06.07.2015
     * fixed bug in nested arrays and dealing with closures
 * [1.1.0](https://github.com/bazzline/php_component_cli_arguments/tree/1.1.0) - released at 06.07.2015
