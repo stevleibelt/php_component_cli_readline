@@ -107,6 +107,8 @@ composer require net_bazzline/php_component_cli_readline:dev-master
         * add support to inject [arguments](https://github.com/bazzline/php_component_cli_arguments) instead of simple arguments
         * cover code with unit tests
         * implement debugging mechanism
+* [1.1.3](https://github.com/bazzline/php_component_cli_arguments/tree/1.1.3) - released at 18.12.2015
+    * updated dependencies
 * [1.1.2](https://github.com/bazzline/php_component_cli_arguments/tree/1.1.2) - released at 29.11.2015
     * fixed broken release history linkgs
     * fixed broken style
