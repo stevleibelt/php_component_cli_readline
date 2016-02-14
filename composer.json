@@ -36,9 +36,13 @@
         }
     ],
     "autoload": {
-        "psr-0": {
-            "Net\\Bazzline\\Component\\Cli\\Readline": "source/",
-            "Test\\Net\\Bazzline\\Component\\Cli\\Readline": "test/"
+        "psr-4": {
+            "Net\\Bazzline\\Component\\Cli\\Readline\\": "source/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Test\\Net\\Bazzline\\Component\\Cli\\Readline\\": "test/"
         }
     }
 }
