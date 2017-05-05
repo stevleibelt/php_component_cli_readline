@@ -103,6 +103,7 @@ composer require net_bazzline/php_component_cli_readline:dev-master
 # History
 
 * upcomming
+    * removed support for php version below 5.6
     * @todo
         * add support to inject [arguments](https://github.com/bazzline/php_component_cli_arguments) instead of simple arguments
         * cover code with unit tests
