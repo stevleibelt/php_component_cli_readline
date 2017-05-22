@@ -15,6 +15,8 @@ The versioneye status is:
 
 Take a look on [openhub.net](https://openhub.net/p/php_component_cli_readline).
 
+The current change log can be found [here](https://github.com/bazzline/php_component_cli_readline/blob/master/CHANGELOG.md).
+
 # Benefits
 
 * autocomplete support
@@ -98,41 +100,6 @@ composer require net_bazzline/php_component_cli_readline:dev-master
 # API
 
 [API](http://www.bazzline.net/a34444c53af6abb71b3de88f7ee355f13220bf36/index.html) is available at [bazzline.net](http://www.bazzline.net).
-
-
-# History
-
-* upcomming
-    * removed support for php version below 5.6
-    * @todo
-        * add support to inject [arguments](https://github.com/bazzline/php_component_cli_arguments) instead of simple arguments
-        * cover code with unit tests
-        * move to CHANGELOG.md
-        * implement debugging mechanism
-    * increased minimum supported php version to 5.6
-* [1.2.2](https://github.com/bazzline/php_component_cli_arguments/tree/1.2.2) - released at 05.05.2017
-    * updated dependency
-* [1.2.1](https://github.com/bazzline/php_component_cli_arguments/tree/1.2.1) - released at 08.03.2016
-    * updated dependency
-* [1.2.0](https://github.com/bazzline/php_component_cli_arguments/tree/1.2.0) - released at 14.02.2016
-    * added integration test for php 7.0
-    * moved to psr-4 autoloading
-    * removed integration test for php 5.3.3
-    * updated dependencies
-* [1.1.3](https://github.com/bazzline/php_component_cli_arguments/tree/1.1.3) - released at 18.12.2015
-    * updated dependencies
-* [1.1.2](https://github.com/bazzline/php_component_cli_arguments/tree/1.1.2) - released at 29.11.2015
-    * fixed broken release history linkgs
-    * fixed broken style
-    * updated dependencies
-* [1.1.1](https://github.com/bazzline/php_component_cli_arguments/tree/1.1.1) - released at 06.07.2015
-    * fixed bug in nested arrays and dealing with closures
-* [1.1.0](https://github.com/bazzline/php_component_cli_arguments/tree/1.1.0) - released at 06.07.2015
-    * removed unused DebugManager
-    * moved from project namespace "Autocomplete" to "Readline"
-    * started with unit tests
-* [1.0.0](https://github.com/bazzline/php_component_cli_arguments/tree/1.0.0) - released at 05.07.2015
-    * initial release
 
 # Other Great Components
 
