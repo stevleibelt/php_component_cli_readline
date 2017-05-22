@@ -80,7 +80,7 @@ class Autocomplete
             if ($indexLengthIsGreaterZero) {
                 $position   = strlen($index);
                 $values     = array_keys($configuration);
-                $completion = array();
+                $completion = [];
 
                 foreach ($values as $value) {
                     if (substr($value, 0, $position) === $index) {

@@ -65,7 +65,7 @@ class Assembler implements AssemblageInterface
      */
     private function build($data)
     {
-        $configuration  = array();
+        $configuration  = [];
 
         foreach ($data as $index => $arrayOrCallable) {
             $isCallable = $this->isCallable($arrayOrCallable);

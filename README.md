@@ -109,6 +109,7 @@ composer require net_bazzline/php_component_cli_readline:dev-master
         * cover code with unit tests
         * move to CHANGELOG.md
         * implement debugging mechanism
+    * increased minimum supported php version to 5.6
 * [1.2.2](https://github.com/bazzline/php_component_cli_arguments/tree/1.2.2) - released at 05.05.2017
     * updated dependency
 * [1.2.1](https://github.com/bazzline/php_component_cli_arguments/tree/1.2.1) - released at 08.03.2016
