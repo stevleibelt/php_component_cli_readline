@@ -1,3 +1,7 @@
+# PLEASE NOTE, THIS PROJECT IS NO LONGER BEING MAINTAINED
+
+I still like the idea but there is currently no use case to develop it anymore.
+
 # Readline Component for PHP
 
 This project aims to deliver an easy to use and free as in freedom php compontent for dealing with unix console readline and autocomplete php scripts.
